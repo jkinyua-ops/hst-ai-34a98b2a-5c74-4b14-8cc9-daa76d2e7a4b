@@ -2,3 +2,5 @@
 
 "change nav bar color to green"
 
+"Change app title in the nav bar to Jeremy's test app"
+
