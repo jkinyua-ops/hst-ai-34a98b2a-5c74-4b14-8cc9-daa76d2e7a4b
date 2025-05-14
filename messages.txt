@@ -6,3 +6,5 @@
 
 "Change app title in the nav bar to Jeremy's test app 2"
 
+"change nav bar color to green"
+
