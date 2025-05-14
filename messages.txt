@@ -10,3 +10,5 @@
 
 "change nav bar to navy blue"
 
+"change the app name displayed to Jeremy's app"
+
