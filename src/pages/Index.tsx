@@ -6,7 +6,7 @@ const Index = () => {
     <div className="min-h-screen flex flex-col bg-gray-100">
       <nav className="bg-green-500 p-4">
         <div className="container mx-auto flex justify-between items-center">
-          <Link to="/" className="text-white text-2xl font-bold">Your App</Link>
+          <Link to="/" className="text-white text-2xl font-bold">Jeremy's test app</Link>
           <div className="space-x-4">
             <Link to="/" className="text-white hover:text-green-200">Home</Link>
             <Link to="/about" className="text-white hover:text-green-200">About</Link>
