@@ -1,15 +1,12 @@
-        app = "app_name"
-        primary_region = 'sin'
+app = "hst-ai-34a98b2a-5c74-4b14-8cc9-daa76d2e7a4b"
+primary_region = "ord"
 
-        [build]
+[build]
+  dockerfile = "Dockerfile"
 
-        [http_service]
-        internal_port = 3000
-        force_https = true
-        auto_stop_machines = 'stop'
-        auto_start_machines = true
-        min_machines_running = 0
-        processes = ['app']
-
-        [[vm]]
-        size = 'shared-cpu-1x'
+[http_service]
+  internal_port = 8080
+  force_https = true
+  auto_stop_machines = true
+  auto_start_machines = true
+  min_machines_running = 0
